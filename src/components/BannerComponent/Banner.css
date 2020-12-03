@@ -1,0 +1,8 @@
+.carousel-control-next-icon {
+  /* background-color: rgb(19, 18, 18); */
+  color: black;
+}
+
+.carousel-indicators {
+  display: none;
+}

@@ -1,0 +1,88 @@
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #2874f0;
+}
+
+.header__logo__div {
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+.header__logo__div .explore__plus {
+  font-size: 10px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.explore__plus:hover {
+  text-decoration: underline;
+}
+
+.plus {
+  color: yellow;
+}
+
+.explore__plus img {
+  width: 10px;
+  margin: 2px 0 0 0px;
+}
+
+.header__logo {
+  width: 75px;
+  object-fit: contain;
+  margin: 0px 10px 0px 20px;
+}
+
+.header__searchbar {
+  /* padding: 8px; */
+  display: flex;
+  /* flex: 1; */
+  width: 500px;
+  border-radius: 1px;
+  background-color: white;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.header__searchbar input {
+  padding: 0 16px;
+  border-radius: 2px 0 0 2px;
+  border: 0;
+  outline: 0 none;
+  font-size: 14px;
+  height: 36px;
+  width: 100%;
+}
+
+.bi-search {
+  /* padding: 5px; */
+  margin: 6px 8px;
+  height: 22px !important;
+  color: #2874f0;
+  font-weight: bold;
+}
+
+.header__login {
+  padding: 6px 50px;
+  margin: 0px 40px;
+  font-size: 14px;
+  text-decoration: none !important;
+  list-style-type: none;
+  font-weight: bold;
+  border-radius: 1px;
+  color: #2874f0;
+  background-color: #fff;
+}
+
+.header__cart {
+  display: flex;
+  color: #fff;
+  font-weight: bold;
+}
+
+.header__cart svg {
+  margin: 0 5px;
+}

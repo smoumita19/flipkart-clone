@@ -1,0 +1,12 @@
+.adcard__section {
+  width: 99%;
+  /* margin: auto; */
+}
+
+.adcard__section img {
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+}
+
+.adcard__section .col-md-4 {
+  margin: auto;
+}
