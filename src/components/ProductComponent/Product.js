@@ -38,17 +38,18 @@ function Product({id,title,image,price}) {
     return (
   
             <div className="col-lg-2" key={id}>
-                <Card>
+                {/* <Card> */}
                     <div className="product__img">
                         <img variant="top" src={image} alt={title}/>
                     </div>
                     <Card.Body>
                     <Card.Title style={{ fontSize: '14px', fontWeight: 'bold' }}>{title}</Card.Title>
+                    <p>{price} Rs</p>
                     {/* Add link to */}
                     <Button onClick={addToBasket}>Add to Cart</Button>
                     {/* <ul>{p}</ul> */}
                     </Card.Body>
-                </Card>
+                {/* </Card> */}
             </div>
             
     )

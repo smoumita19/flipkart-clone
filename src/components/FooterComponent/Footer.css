@@ -1,3 +1,32 @@
 .footer {
-  padding: 20px;
+  padding: 50px 0px;
+  background-color: #172337;
+}
+
+.footer__section {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  text-align: left;
+  color: #fff;
+  font-size: 12px;
+}
+
+.footer__section .active {
+  color: grey;
+  margin-bottom: 10px;
+}
+
+.footer__section > div {
+  width: 16%;
+  /* margin: 20px; */
+}
+
+.mail__section {
+  padding-left: 20px;
+  border-left: 1px solid rgba(255, 255, 255, 0.178);
+}
+
+.footer hr {
+  background-color: rgba(255, 255, 255, 0.178);
 }

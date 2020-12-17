@@ -7,7 +7,7 @@ function AllProduct() {
     return (
         <div className="container-fluid product__section">
             <div className="product__top row">
-                <div className="col-12 p-3">
+                <div className="col-12 p-3 text-left">
                     <span> <h4>Todays deal</h4></span>
                 </div>
             </div>
@@ -94,6 +94,7 @@ function AllProduct() {
                         </Card.Body>
                     </Card>
                 </div>
+                
             </div>
         </div>
     )

@@ -4,16 +4,17 @@
 }
 
 .product__top {
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.226);
 }
+
 .product__img {
   /* padding: 20px 30px; */
-  width: 150px;
-  height: 150px;
+  /* width: 150px; */
+  height: 100px;
   margin: auto;
-  /* display: flex;
+  display: flex;
   text-align: center;
-  justify-content: center; */
+  justify-content: center;
   /* background-color: grey; */
 }
 
