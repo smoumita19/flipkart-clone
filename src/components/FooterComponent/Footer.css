@@ -12,6 +12,10 @@
   font-size: 12px;
 }
 
+.footer__section li {
+  margin-top: 10px;
+}
+
 .footer__section .active {
   color: grey;
   margin-bottom: 10px;
@@ -30,3 +34,5 @@
 .footer hr {
   background-color: rgba(255, 255, 255, 0.178);
 }
+
+/*When smaller device make it block*/
