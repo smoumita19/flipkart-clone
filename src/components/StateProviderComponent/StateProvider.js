@@ -1,4 +1,4 @@
-import React, { createContext, useReducer } from 'react';
+import React, { createContext, useContext, useReducer } from 'react';
 
 //Context tree
 export const StateContext = createContext();
@@ -10,4 +10,5 @@ export const StateProvider = ({ reducer, initialState, children }) => (
     </StateContext.Provider>
 );
 
-// export const useStateValue = () => useContext(StateContext);
+//Use this to access data layer
+export const useStateValue = () => useContext(StateContext);

@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import { Card, Button } from 'react-bootstrap';
 import { Link } from 'react-router-dom';
+import { useStateValue } from '../StateProviderComponent/StateProvider';
 
 function Product({id,title,image,price}) {
 
-    const [ products, setProducts ] = useState('');
+    const [ products, setProducts ] = useStateValue();
 
     // setProducts {
     //     products : e
@@ -14,6 +15,7 @@ function Product({id,title,image,price}) {
     const addToBasket = () => {
 
         setProducts({
+            type: 'ADD_TO_CART',
             item : {
                 id : id,
                 title : title,
@@ -21,7 +23,7 @@ function Product({id,title,image,price}) {
                 price : price
             }
         })
-        alert(id + title);
+        // alert(id + title);
     }
 
     //Render product to show the selected item
@@ -37,7 +39,7 @@ function Product({id,title,image,price}) {
 
     return (
   
-            <div className="col-lg-2" key={id}>
+            <div className="col-6 col-sm-4 col-md-3 col-lg-2" key={id}>
                 {/* <Card> */}
                     <div className="product__img">
                         <img variant="top" src={image} alt={title}/>
